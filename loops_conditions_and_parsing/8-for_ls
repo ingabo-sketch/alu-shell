@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# This script lists the part of each filename after the first dash
+for name in *
+do
+    echo "${name#*-}"
+done
